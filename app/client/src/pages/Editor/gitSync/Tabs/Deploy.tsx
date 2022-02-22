@@ -220,7 +220,6 @@ function Deploy() {
             onChange={setCommitMessage}
             ref={commitInputRef}
             trimValue={false}
-            useTextArea
             value={commitMessageDisplay}
           />
         </SubmitWrapper>
