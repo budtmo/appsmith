@@ -883,12 +883,12 @@ function ApplicationsSection(props: any) {
                               />
                             )}
                             <MenuItem
-                              icon="share"
+                              icon="share-line"
                               onSelect={() => setSelectedOrgId(organization.id)}
                               text="Share"
                             />
                             <MenuItem
-                              icon="user"
+                              icon="members"
                               onSelect={() =>
                                 getOnSelectAction(
                                   DropdownOnSelectActions.REDIRECT,
