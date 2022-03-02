@@ -888,7 +888,7 @@ function ApplicationsSection(props: any) {
                               text="Share"
                             />
                             <MenuItem
-                              icon="members"
+                              icon="member"
                               onSelect={() =>
                                 getOnSelectAction(
                                   DropdownOnSelectActions.REDIRECT,
